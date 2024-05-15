@@ -1,5 +1,7 @@
 var isDate = function (input) {
   //   write your code here
+	let s = JSON.stringify(input);
+    return /[0-9]/gim.test(s);
 };
 
 // Do not change the code below.
